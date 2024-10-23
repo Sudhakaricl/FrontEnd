@@ -1,0 +1,42 @@
+*{
+    font-size: larger;
+}
+body{
+  background-color: burlywood;
+}
+a{
+  text-decoration: underline;
+  color: black;
+}
+
+.flex-container {
+    display: flex;
+    background-color: blueviolet;
+  }
+  
+  .flex-container > div {
+    background-color: azure;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid black;
+  }
+
+  .button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button a{
+    width: 120px;
+    height: 80px;
+    background-color: orange;
+    color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 89.8px 6px 80.2px 6px;
+    box-sizing: border-box;
+    border: 5px;
+}

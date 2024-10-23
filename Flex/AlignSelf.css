@@ -1,0 +1,40 @@
+*
+{
+    font-size: larger;
+}
+body{
+  background-color: burlywood;
+}
+.flex-container {
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    /*line-height: 1.5;/*font size * line-height*/
+    font-size: 30px;
+    box-sizing: border-box;
+  }
+
+  .flex-container2{
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container2 > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;/*font size * line-height*/
+    font-size: 30px;
+    box-sizing: border-box;
+  }

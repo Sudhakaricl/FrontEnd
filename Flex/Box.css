@@ -1,0 +1,24 @@
+body{
+  background-color: burlywood;
+}
+#no-padding{
+  width:300px;
+  height:100px;
+  color:blue;
+  border: 5px dotted lightgreen;
+}
+#padding{
+  width:300px;
+  height:100px;
+  color:red;
+  padding:5px;
+    border: 5px dotted green;
+}
+#sizing{
+  width:300px;
+  height:100px;
+  color:red;
+  padding:5px;
+    border: 5px dotted yellow;
+    box-sizing:border-box;
+}

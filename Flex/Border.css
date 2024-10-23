@@ -1,0 +1,31 @@
+#style{
+  border-style: solid;
+}
+#width{
+  border-style: dashed dotted;
+  border-width: 10px ;
+}
+#color{
+  border-style:double;
+  border-width: 20px 15px 10px 5px;
+  border-color: red blue green yellow;
+}
+#radius{
+  border-style:dashed;
+  border-width: 8px;
+  border-color:orange, red;
+  border-bottom-color: blue;
+  border-radius:5px;
+}
+#advance{
+  border:5px solid red;
+}
+#size{
+   border:5px solid brown;
+ /* First border */
+    box-shadow: 0 0 0 10px blue, /* Second /*border */
+                0 0 0 15px green; /* Third border */
+}
+body{
+  background-color: burlywood;
+}

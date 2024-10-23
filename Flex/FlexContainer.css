@@ -1,0 +1,70 @@
+#home{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 5px solid white;  
+    background-color: lightblue;
+}
+#direct{
+    text-decoration: underline;
+    color: black;
+    
+}
+#wrap{
+    text-decoration: underline;
+    color: black;
+}
+ul{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    display: flex;
+    background-color: red;
+    
+}
+.container div{
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+body{
+    background-color: burlywood;
+    font-size: x-large;
+}
+
+#home:hover,#back:hover{
+    font-size: xx-large;
+    color: red;
+}
+
+body{
+    font-size: x-large;
+}
+*:hover{
+    cursor: alias;
+}
+
+.container1{
+  
+    display: flex;
+     height: 60px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+ }
+ 
+ .container1 a{
+     width: 120px;
+     height: 80px;
+     background-color: blueviolet;
+     color: white;
+     margin: 40px;
+     padding: 20px;
+     text-align: center;
+     border-radius: 89.8px 6px 80.2px 6px;
+     box-sizing: border-box;
+     border: 5px;
+ }

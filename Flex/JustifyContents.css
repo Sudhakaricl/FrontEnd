@@ -1,0 +1,172 @@
+body{
+    background-color: burlywood;
+}
+
+.container {
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.container div {
+
+    background-color: azure;
+    margin: 30px;
+    padding: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+
+
+.container2 {
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+
+.container2 div {
+
+    background-color: azure;
+    margin: 30px;
+    padding: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+
+.container3 {
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/*flex-flow:row wrap;*/
+    justify-content: flex-end;
+    /* Aligns all child divs to the right */
+}
+
+.container3 div {
+    background-color: azure;
+    margin: 30px;
+    padding: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+
+.container4 {
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    /* Aligns all child divs to the right */
+}
+
+.container4 div {
+    background-color: azure;
+    margin: 30px;
+    padding: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+
+.container5 {
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+   
+}
+
+.container5 div {
+    background-color: azure;
+    margin: 30px;
+    padding: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+
+.container6 {
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.container6 div {
+    background-color: azure;
+    margin: 30px;
+    padding: 30px;
+    line-height: 70px;
+    box-sizing: border-box;
+    
+}
+
+
+#home{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 5px solid white;  
+    background-color: lightblue;
+    
+    
+}
+#back{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 5px solid white;  
+    background-color: lightblue;
+    
+    
+}
+#home:hover,#back:hover{
+    font-size: xx-large;
+    color: red;
+}
+
+body{
+    font-size: x-large;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button a{
+    width: 120px;
+    height: 80px;
+    background-color: orange;
+    color: white;
+    margin: 40px;
+    padding: 20px;
+   text-align: center;
+    border-radius: 89.8px 6px 80.2px 6px;
+    box-sizing: border-box;
+    border: 5px;
+}
+
+*:hover{
+    cursor: alias;
+}
+
+@media screen  and (min-width:480px){
+    .container,.container2,.container3,.container4,.container5,.container6{
+        flex-shrink: 2;
+    }
+    
+}
